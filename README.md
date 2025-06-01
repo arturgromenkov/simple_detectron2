@@ -69,7 +69,7 @@
 ### 2. Отредактируйте файл config.py под ваши нужды
 ### 3. Запустите скрипт обучения
 ```
-python train_model.py path/to/train.json path/to/val.json path/to/images_folder path/to/output_folder
+python scripts/train_model.py path/to/train.json path/to/val.json path/to/images_folder path/to/output_folder
 ```
 ### 4. Наблюдайте за процессом обучения
 ```
@@ -77,11 +77,11 @@ tensorboard --logdir path/to/output_folder
 ```
 ### 5. После окончания тренировки проверьте работоспособность вашей модели (только для задач детекций)
 ```
-python test_model.py path/to/model_checkpoint.pth path/to/image.jpg
+python scripts/test_model.py path/to/model_checkpoint.pth path/to/image.jpg
 ```
 ### 6. Экспортируйте модель в формат torchscript
 ```
-python export_model.py path/to/model_checkpoint.pth path/to/exported_model.pt cuda
+python scripts/export_model.py path/to/model_checkpoint.pth path/to/exported_model.pt cuda
 ```
 ### 7. Чтобы использовать простой интерфейс для экспортированной модели, отредактируйте файл app_config.py
 ```
