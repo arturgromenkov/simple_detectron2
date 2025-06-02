@@ -1,6 +1,6 @@
 # simple_detectron2
 
-**simple_detectron2** — минималистичный шаблон для обучения и применения моделей детекции объектов на базе [Detectron2](https://github.com/facebookresearch/detectron2).
+**simple_detectron2** — минималистичный шаблон для обучения и применения моделей детекции объектов на базе [Detectron2](https://github.com/facebookresearch/detectron2), протестирован для задач детекции и классификации наночастиц.
 
 ---
 
